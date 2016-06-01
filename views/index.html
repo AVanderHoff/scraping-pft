@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Pro Football Talk Comments</title>
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+			<button type="button" class="btn btn-success" id="scrape">Scrape New Content
+			</button>
+			<a href="http://profootballtalk.nbcsports.com/" target="_blank">Article Content</a>
+		
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title"><strong>Enter Comment</strong></h3>
+				</div>
+				<div class="panel-body">
+					<div class="form-group">
+  						<textarea class="form-control" rows="5" id="entry"></textarea>
+					</div>
+					<button type="button" class="btn btn-success" id="submit">Submit
+					</button>
+				</div>
+			</div>
+		</div>
+
+
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+					<h3 class="panel-title"><strong>Articles</strong></h3>
+			</div>
+				
+			<nav>
+  				<ul class="pager">
+    					<li><a href="#" id="previous">Previous</a></li>
+    					<li><a href="#" id="next">Next</a></li>
+  				</ul>
+			</nav>
+
+			<div class="panel-body" id="articles">
+					<!-- content show up here -->
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+					<h3 class="panel-title"><strong>Comments</strong></h3>
+			</div>
+			<div class="panel-body" id="comments">
+				<!-- comments show up here -->
+			</div>
+				<button type="button" class="btn btn-success" id="delete">Delete Last Comment
+				</button>
+			</div>
+		</div>
+	</div>
+
+
+	</div>
+
+
+</div>
+</body>
+</html>
+
+
+<script src="/js/app.js"></script>
+<script type="text/javascript">
+</script>
