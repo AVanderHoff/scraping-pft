@@ -5,6 +5,7 @@ var mongoose = require('mongoose');
 var autoIncrement = require('mongoose-auto-increment');
 var url = require('url');
 //mongoose.connect('mongodb://localhost/profootballtalk');
+//mlab connection information
 mongoose.connect("mongodb://andrew:password@ds043324.mlab.com:43324/profootballtalk", function (error) {
     if (error) console.error(error);
     else console.log('mongo connected');
